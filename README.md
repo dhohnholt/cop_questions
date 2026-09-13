@@ -2,11 +2,11 @@
 
 A simple, responsive flash-card website for practicing calm responses during traffic stops.
 
-Open `index.html` in a browser for a local preview. No build step or package installation is required.
+Open `index.html` in a browser for a local preview. No package installation is required.
 
 ## Deploying to Netlify
 
-Import this project folder or its Git repository into Netlify. The included `netlify.toml` tells Netlify to publish the ready-to-deploy files in `dist`, so the build-command field can remain empty.
+Import this project folder or its Git repository into Netlify. The included `netlify.toml` tells Netlify to publish the ready-to-deploy files in `dist`. If Netlify is configured to run `npm run build`, the dependency-free build script refreshes `dist` from the source files.
 
 The editable source files and deployable copies are both stored inside this project:
 
