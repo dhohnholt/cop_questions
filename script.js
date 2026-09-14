@@ -1,3 +1,21 @@
+const cardsSection = document.querySelector(".cards-section");
+const tapHint = cardsSection.querySelector(".tap-hint");
+const cardOrder = [
+  "card-six-answer",
+  "card-three-answer",
+  "card-two-answer",
+  "card-five-answer",
+  "card-one-answer",
+  "card-four-answer",
+];
+
+cardOrder.forEach((answerId, index) => {
+  const answer = document.getElementById(answerId);
+  const card = answer.closest("[data-card]");
+  card.querySelector(".card-number").textContent = String(index + 1).padStart(2, "0");
+  cardsSection.insertBefore(card, tapHint);
+});
+
 const cards = document.querySelectorAll("[data-card]");
 
 cards.forEach((card) => {
