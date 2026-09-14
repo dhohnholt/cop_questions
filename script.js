@@ -4,6 +4,7 @@ const cardOrder = [
   "card-six-answer",
   "card-three-answer",
   "card-two-answer",
+  "card-seven-answer",
   "card-five-answer",
   "card-one-answer",
   "card-four-answer",
