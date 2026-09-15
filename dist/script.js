@@ -8,6 +8,7 @@ const cardOrder = [
   "card-five-answer",
   "card-one-answer",
   "card-four-answer",
+  "card-eight-answer",
 ];
 
 cardOrder.forEach((answerId, index) => {
